@@ -1,0 +1,27 @@
+This theme is customized by Mamadou BA
+naedioba1@gmail.com
+YouTube: @mamadoubapassioninformatique
+***********************************
+
+How to install the theme
+
+Step 1: Download the theme and .qml files from here: https://github.com/naedioba/Custom_theme_green_Cura_5.4.0/archive/refs/heads/main.zip
+
+Step 2: Unzip the folder, then copy and paste all .qml files in the folder C:\Program Files\UltiMaker Cura 5.4.0\share\cura\resources\qml
+Click YES when asked to replace existing file.
+
+Step 3: Copy the folder cura-green in C:\Users\user name\AppData\Roaming\cura\5.4\themes
+
+Step 4: Restart Cura, and enjoy !
+
+NB: In case you receive an error message, you may need to follow these steps:
+- open the file theme.json in the folder C:\Program Files\UltiMaker Cura 5.4.0\share\cura\resources\themes
+- go in the section "base_colors": 
+- add this line: "slice_button_hover": [250, 220,0, 255],
+where [250, 220,0, 255] is the color of the slice button when it is hovered.
+
+
+
+
+
+
